@@ -1,0 +1,47 @@
+/* The Page's Layout */
+html, body{
+    background-color: hsl(212, 45%, 89%);
+    color: black;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+/********************************************/
+
+.Container{
+  margin: 8rem auto;
+  width: 30vh;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: beige;
+  border-radius: 15% 15%;
+  flex-direction: column;
+}
+
+.Image{
+  padding: 5%;
+  overflow: hidden;
+}
+.Image, img{
+  height: 27vh;
+  border-radius: 15% 15%;
+}
+.Text{
+  padding: 0.8rem;
+  margin: auto;
+  font-size: x-small;
+  text-align: center;
+  overflow: auto;
+}
+  .Text h3{
+    color:   hsl(217, 55%, 15%);
+  }
+  .Text p{
+    color:   hsl(212, 19%, 71%);
+  }
+
+
